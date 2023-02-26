@@ -48,6 +48,13 @@ The root directory of WordPress contains files that are needed to configure Word
     /login.php
     /wp-login.php
 
+.gitignore review to exploit directory
+wp-content/upgrade/*
+wp-content/backup-db/*
+wp-content/cache/*
+wp-content/cache/supercache/*
+wp-content/w3tc-cache/*
+
 This file can also be renamed to make it more challenging to find the login page.
 
     xmlrpc.php is a file representing a feature of WordPress that enables data to be transmitted with HTTP acting as the transport mechanism and XML as the encoding mechanism. This type of communication has been replaced by the WordPress REST API.
